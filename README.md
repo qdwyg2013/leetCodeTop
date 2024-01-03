@@ -1,3 +1,4 @@
+# LeetCode生成模板
 ${question.content}
 package leetcode.editor.cn;
 
@@ -15,3 +16,9 @@ package leetcode.editor.cn;
 
   ${question.code}
 }
+
+# token
+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
+
+# 免密连接git
+git remote set-url origin https://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@github.com/qdwyg2013/leetcodeCodeTop.git
