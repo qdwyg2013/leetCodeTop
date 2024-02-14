@@ -1,15 +1,20 @@
-# LeetCode生成模板
+# LeetCode模板
+## TempFilePath
+/Users/wangyugang03/project/suanfa/leetCodeTop/src/main/java
+## Code FileName
+S${question.frontendQuestionId}_$!velocityTool.camelCaseName(${question.titleSlug})
+## Code Template
 ${question.content}
 package leetcode.editor.cn;
 
 /**
-* java:[${question.frontendQuestionId}]${question.title}
-* date:$!velocityTool.date()
+  * Java：[${question.frontendQuestionId}]${question.title}
+  * Date：$!velocityTool.date()
   */
-  public class T${question.frontendQuestionId}_$!velocityTool.camelCaseName(${question.titleSlug}) {
+  public class S${question.frontendQuestionId}_$!velocityTool.camelCaseName(${question.titleSlug}) {
 
   public static void main(String[] args) {
-  Solution solution = new T${question.frontendQuestionId}_$!velocityTool.camelCaseName(${question.titleSlug})().new Solution();
+  Solution solution = new S${question.frontendQuestionId}_$!velocityTool.camelCaseName(${question.titleSlug})().new Solution();
   // TO TEST
   System.out.println();
   }
@@ -17,8 +22,12 @@ package leetcode.editor.cn;
   ${question.code}
 }
 
-# token
-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
+# gitHub登录
+userName：qdywg2013
+password：token
+token：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
+token：有效期：2025-02-14
+免密连接方式：git remote set-url origin  https://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@github.com/qdwyg2013/leetCodeTop.git
 
-# 免密连接git
-git remote set-url origin https://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@github.com/qdwyg2013/leetcodeCodeTop.git
+# codeTop网址
+https://codetop.cc/home 
